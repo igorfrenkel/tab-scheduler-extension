@@ -1,0 +1,11 @@
+{
+  "name": "Tab Stopper",
+  "version": "1.0",
+  "description": "Stop Tabs at a Scheduled Time",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["alarms", "tabs", "storage"],
+  "manifest_version": 2
+}
